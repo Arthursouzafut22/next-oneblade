@@ -1,0 +1,38 @@
+.sobre {
+  padding: 6rem 0;
+  background: #ffffff;
+}
+
+.badge {
+  margin-bottom: 1rem;
+  text-align: center;
+  display: block;
+  border: 2px solid #e5e5e5;
+  max-width: 65px;
+  margin: 0 auto 1rem auto;
+  font-size: 0.81rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 10px !important;
+  font-weight: 600;
+  border-radius: 6px;
+  height: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.descriptionSobre {
+  font-size: 1.125rem;
+  color: #64748b;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: center;
+}

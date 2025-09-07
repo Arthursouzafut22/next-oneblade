@@ -1,5 +1,5 @@
 :root {
-  --background: #FFFFFF;
+  --background: #ffffff;
   --foreground: #171717;
 }
 
@@ -18,7 +18,7 @@ body {
 
 body {
   color: #171717;
-  background: #FFFFFF;
+  background: #ffffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,3 +35,6 @@ a {
   text-decoration: none;
 }
 
+::selection {
+  background-color: #cdeae1;
+}

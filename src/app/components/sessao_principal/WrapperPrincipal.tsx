@@ -5,7 +5,7 @@ import { FaStar } from "react-icons/fa";
 
 export default function WrapperPrincipal(){
     return (
-      <div className={styles.container}>
+      <section className={styles.container}>
         <div className={styles.box1}>
           <h1>OneBlade Philips</h1>
           <p className={styles.revolucao}>A revolução no cuidado masculino</p>
@@ -22,7 +22,7 @@ export default function WrapperPrincipal(){
           <div className={styles.boxAvaliation}>
             <div className={styles.stars}>
               {new Array(5).fill(5).map((_, i) => (
-                <FaStar key={i} color={"#FBBF24"} fontSize={20}/>
+                <FaStar key={i} color={"#FBBF24"} fontSize={20} />
               ))}
             </div>
             <p>4.8/5 (2.847 avaliações)</p>
@@ -38,6 +38,6 @@ export default function WrapperPrincipal(){
             quality={80}
           />
         </div>
-      </div>
+      </section>
     );
 }

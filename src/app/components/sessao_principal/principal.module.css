@@ -1,11 +1,11 @@
 .container {
   max-width: 1200px;
-  margin: 50px auto auto auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6rem;
   align-items: center;
-  padding-inline: 18px;
+  padding: 4rem 18px;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -64,14 +64,19 @@
 .wrapperButtons {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .boxAvaliation {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.75rem;
   margin-top: 25px;
+}
+@media (max-width: 768px) {
+  .boxAvaliation {
+    justify-content: center;
+  }
 }
 
 .stars {
