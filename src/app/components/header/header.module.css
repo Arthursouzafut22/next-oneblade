@@ -19,6 +19,12 @@
   align-items: center;
   gap: 12px;
 
+  @media (max-width: 450px) {
+    p {
+      display: none !important;
+    }
+  }
+
   strong {
     font-size: 1.5rem;
     font-weight: 700;
