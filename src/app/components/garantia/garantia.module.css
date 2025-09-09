@@ -1,0 +1,47 @@
+.section_garantia{
+   padding: 4rem 18px;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.garantia_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 16px;
+    border: 1px solid rgba(226, 232, 240, 0.5);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+@media (max-width: 768px) {
+    .garantia_content {
+        flex-direction: column;
+    }
+}
+
+.garantia_item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1 1;
+    text-align: center;
+    padding: 24px;
+
+
+    h4{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 0.25rem;
+    }
+
+    p{
+    color: #64748b;
+    margin: 0;
+    }
+}
